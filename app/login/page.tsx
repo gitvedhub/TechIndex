@@ -8,7 +8,7 @@ export default async function LoginPage() {
   const user = await getCurrentUser();
 
   return <main className="auth-shell">
-    <Link className="auth-brand" href="/"><span>TL</span><strong>TechLedger</strong></Link>
+    <Link className="auth-brand" href="/"><span>TI</span><strong>TechIndex</strong></Link>
     <section className="auth-card">
       <div className="auth-copy">
         <p>YOUR PRIVATE TECHNOLOGY WORKSPACE</p>

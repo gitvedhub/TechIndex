@@ -41,6 +41,6 @@ export default function EmailAuthForm() {
       {error?<div className="auth-form-error" role="alert">{error}</div>:null}
       <button className="auth-submit" disabled={submitting}>{submitting?(mode==="sign-in"?"Logging in...":"Creating account..."):(mode==="sign-in"?"Log in":"Create account")}<b>→</b></button>
     </form>
-    <small>{mode==="sign-in"?"New to TechLedger? Choose Sign up above.":"By creating an account, your workspace will be stored securely in Neon."}</small>
+    <small>{mode==="sign-in"?"New to TechIndex? Choose Sign up above.":"By creating an account, your workspace will be stored securely in Neon."}</small>
   </div>;
 }
